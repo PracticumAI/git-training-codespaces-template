@@ -8,25 +8,38 @@ As a best practice, code should reside in a version control system. These system
 
 In addition to using `git`, it is possible to use one of many online git hosting sites. For *Practicum AI* we use [GitHub.com](https://github.com/). There are other options, but GitHub is one of the leading online hosting companies and offers [educational discounts for students and faculty](https://education.github.com/).
 
-Furthermore, GitHub offers a product called Codespaces that allows you to run Jupyter Notebooks on thier servers in your browser. The interface for Codespaces is a little different than using JupyterLab on a computer cluster. Codespaces will use an in-browser version of VSCode, allowing you to run Jupyer Notebooks on 
-GitHub's servers. This version of the git training has screenshots to help you become familiar with the Codespaces interface, as opposed to the JupyterLab interface featured in other versions of the Practicum AI git Training. **This is intended for users who will be using Codespaces.**
+Furthermore, GitHub offers a product called [Codespaces](https://github.com/features/codespaces) that allows you to run Jupyter Notebooks on their servers in your browser. The interface for Codespaces is a little different than using JupyterLab on a computer or cluster. Codespaces will use an in-browser version of [VSCode](https://code.visualstudio.com/), allowing you to run Jupyter Notebooks on GitHub's servers. This version of the git training has screenshots to help you become familiar with the Codespaces interface, as opposed to the JupyterLab interface featured in other versions of the Practicum AI git Training. **This is intended for users who will be using Codespaces.**
 
 **This training will start with some slides which are part of the source repository at: <https://ufresearchcomputing.github.io/git-training/#/>**
 
 After going over the [slides](https://ufresearchcomputing.github.io/git-training/#/), we'll come back to this.
 [![Screenshot of the title slide of the presentation on Git and Github.com](images/slides_screenshot.png)](https://ufresearchcomputing.github.io/git-training/#/)
 
-## 1. Setup:
+## 1. Setup
 
 Setup on Codespaces is super simple. The instructions in the other versions of this training cover how to setup ssh keys to connect to your GitHub account from a remote computer. But because Codespaces uses GitHub's servers, there are no keys to setup!
 
+To launch a Codespace:
 
+- Click the green `<> Code` button
+- Select the `Codespaces` tab
+- Click Create `Codespace on main` button
 
-> To learn about setting up your github account to use ssh keys, check out the [01_git setup page](01_git_setup.md).
+![Screenshot of launching a codespace using the instructions above](images/Codespaces_launch.png)
+
+That will take a minute or two as a Codespace server is configured and started up for you.
+
+> To view a version of this training that covers setting up ssh keys, check out [the git setup page of this repository](https://github.com/PracticumAI/git-training-jupyter-template/01_git_setup.md).
+
+The image below shows what your Codespace should look like and points out a few important portions of the Codespace.
+
+![Screenshot of Codespaces page, highlighting several features: The Terminal panel, which can be closed using the X in the top right of the panel, the File list, showing the files in the repository, and the git tab, to open the git panel for performing git commands.](images/Codespaces_overview.png)
+
+Close the terminal panel by clicking the X in the top right of the panel--we won't be using it in this exercise.
 
 ## 2. Continue on the [02_exercise.ipynb notebook](02_exercise.ipynb)
 
-Once you have setup your GitHub account and ssh keys, you can continue to the [exercise](02_exercise.ipynb).
+Click on [02_exercise.ipynb](02_exercise.ipynb) to open the exercise and follow along the instructions in there.
 
 ## Additional Resources
 
