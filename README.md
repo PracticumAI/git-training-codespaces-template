@@ -1,4 +1,4 @@
-# Practicum AI git and GitHub.com
+# Practicum AI git and GitHub.com using GitHub Codespaces
 
 [![Practicum AI Logo image](https://github.com/PracticumAI/practicumai.github.io/blob/main/images/logo/PracticumAI_logo_250x50.png?raw=true)](https://practicumai.org/)<img src='https://github.com/PracticumAI/practicumai.github.io/blob/main/images/icons/practicumai_git.png?raw=true' align='right' width=50>
 
@@ -8,14 +8,19 @@ As a best practice, code should reside in a version control system. These system
 
 In addition to using `git`, it is possible to use one of many online git hosting sites. For *Practicum AI* we use [GitHub.com](https://github.com/). There are other options, but GitHub is one of the leading online hosting companies and offers [educational discounts for students and faculty](https://education.github.com/).
 
+Furthermore, GitHub offers a product called Codespaces that allows you to run Jupyter Notebooks on thier servers in your browser. The interface for Codespaces is a little different than using JupyterLab on a computer cluster. Codespaces will use an in-browser version of VSCode, allowing you to run Jupyer Notebooks on 
+GitHub's servers. This version of the git training has screenshots to help you become familiar with the Codespaces interface, as opposed to the JupyterLab interface featured in other versions of the Practicum AI git Training. **This is intended for users who will be using Codespaces.**
+
 **This training will start with some slides which are part of the source repository at: <https://ufresearchcomputing.github.io/git-training/#/>**
 
 After going over the [slides](https://ufresearchcomputing.github.io/git-training/#/), we'll come back to this.
 [![Screenshot of the title slide of the presentation on Git and Github.com](images/slides_screenshot.png)](https://ufresearchcomputing.github.io/git-training/#/)
 
-## 1. Setup: [01_git_setup.md](01_git_setup.md)
+## 1. Setup:
 
-The [01_git_setup.md](01_git_setup.md) page has some basic git and github configuration information.
+Setup on Codespaces is super simple. The instructions in the other versions of this training cover how to setup ssh keys to connect to your GitHub account from a remote computer. But because Codespaces uses GitHub's servers, there are no keys to setup!
+
+
 
 > To learn about setting up your github account to use ssh keys, check out the [01_git setup page](01_git_setup.md).
 
