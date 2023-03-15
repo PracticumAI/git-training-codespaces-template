@@ -21,11 +21,11 @@ Setup on Codespaces is super simple. The instructions in the other versions of t
 
 To launch a Codespace:
 
-- Click the green `<> Code` button
-- Select the `Codespaces` tab
-- Click Create `Codespace on main` button
+1. Click the green `<> Code` button
+1. Select the `Codespaces` tab
+1. Click Create `Codespace on main` button
 
-![Screenshot of launching a codespace using the instructions above](images/Codespaces_launch.png)
+![Screenshot of launching a Codespace using the instructions above](images/github_codespaces_launch.png)
 
 That will take a minute or two as a Codespace server is configured and started up for you.
 
